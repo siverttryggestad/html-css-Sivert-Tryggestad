@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #111;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.logo p {
+  font-size: 0.8rem;
+  color: #004c5c;
+}
+
+nav a {
+  margin: 0 15px;
+  color: black;
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 12px; 
+  font-size: 1.6rem; 
+}
+
+.icons a {
+  text-decoration: none;
+  color: black; 
+  cursor: pointer;
+}
+
+.icons a:hover {
+  opacity: 0.7; 
+}
+
+.product-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 60px;
+}
+
+.product-image img {
+  width: 350px;
+  border-radius: 4px;
+}
+
+.product-info {
+  max-width: 500px;
+}
+
+.product-info h2 {
+  margin-bottom: 5px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.sizes {
+  margin: 15px 0;
+}
+
+.sizes button {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.sizes button:hover {
+  background-color: #ddd;
+}
+
+.stock {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 20px 0;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.cart-btn {
+  background-color: #4b4b4b;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.cart-btn:hover {
+  background-color: #5c5c5c;
+}
+
+.desc h3 {
+  margin: 20px 0 8px;
+}
+
+.desc p,
+.desc ul {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.desc ul {
+  padding-left: 20px;
+}
+
+@media (max-width: 900px) {
+  .product-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-image img {
+    width: 80%;
+  }
+
+  .product-info {
+    max-width: 90%;
+  }
+}
