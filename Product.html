@@ -20,7 +20,9 @@
     </nav>
 
     <div class="icons">
-      <a href="cart.html" class="icon">🛒</a>
+      <a href="cart.html" class="icon">
+        🛒 <span id="cart-count"></span>
+      </a>
       <a href="index.html" class="icon">☰</a>
     </div>
   </header>
@@ -43,7 +45,7 @@
 
         <p class="stock"><span class="dot"></span> In stock</p>
 
-       <button class="cart-btn" onclick="window.location.href='cart.html'">Add to cart</button>
+       <button class="cart-btn add-to-cart">Add to cart</button>
 
         <div class="desc">
           <h3>Description</h3>
@@ -69,6 +71,6 @@
       </div>
     </section>
   </main>
-
+<script src="cart.js"></script>
 </body>
 </html>
