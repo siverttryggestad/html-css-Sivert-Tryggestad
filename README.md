@@ -1,7 +1,7 @@
-# Project Name
+# Html-css rainy days
 
 ## Description
-Short description of the project.
+First project using both css and html. Made an easy website using both CSS and HTML. easy responsivnes for a new website and a user friendly shopping experience 
 
 ## Built With
 - HTML
@@ -9,22 +9,19 @@ Short description of the project.
 - JavaScript
 
 ## Features
-- Responsive design
-- Product filtering
-- Shopping cart
-- API integration
-etc.
+- product description
+- product viewing
+- navigation
 
 ## Improvements Made
-- Added clickable homepage cards
 - Added cart counter using localStorage
-etc.
 
 ## Live Demo
 (link)
 
 ## GitHub Repo
-(link)
+https://github.com/siverttryggestad/html-css-Sivert-Tryggestad
 
 ## Contact
-(name/email)
+Sivert Tryggestad
+Mail: siverttryggestad@gmail.com
